@@ -140,4 +140,8 @@ while str(input_message) != "exit":
 		print(animals[int(input_message)])
 	input_message = (input("Which habitat # do you need? > "))
 
-print("See you!")
+print("""
+See you!
+You can run the program to view the animals again if you wish. :)
+""")
+
